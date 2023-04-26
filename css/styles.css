@@ -188,12 +188,14 @@ body {
   font-style: normal;
   font-size: 56px;
   line-height: 1.07;
-  width: 496px;
-  height: 120px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
+  padding-top: 188px;
+  padding-bottom: 48px;
+  padding-left: 316px;
+  padding-right: 316px;
 }
 
 .hero-button {
@@ -204,9 +206,9 @@ body {
   min-width: 169px;
   height: 56px;
   padding: 16px 32px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
+  margin-left: 478px;
+  margin-right: 478px;
+  margin-bottom: 188px;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
@@ -238,10 +240,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .first-par {
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -251,7 +254,7 @@ body {
 /* -----------SECTION 2------------- */
 
 #section-second {
-  padding-bottom: 0;
+  padding-bottom: 120;
 }
 
 .second-head {
@@ -282,8 +285,9 @@ body {
 
 /* -----------SECTION 3------------- */
 
-.section-third {
+#section-third {
   background: #f4f4fd;
+  padding-top: 120px;
 }
 
 .third-list {
@@ -300,7 +304,6 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .third-item {
@@ -324,7 +327,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .third-img {
@@ -364,7 +367,7 @@ body {
   width: 264px;
   height: 72px;
   color: #e7e9fc;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 /* Portfolio */
@@ -422,10 +425,15 @@ body {
 
 /* -----------PROJECTS------------- */
 
-.projects-list {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 72px;
+}
+
+.project-div {
+  padding-left: 16px;
+  padding-right: auto;
 }
 
 .project-item {
@@ -448,6 +456,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .project-text {
@@ -455,6 +465,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 64px;
 }
 
 /* пример смены цвета при наведении на елемент
