@@ -281,6 +281,7 @@ body {
 
 .second-img {
   padding: 0px;
+  border: 1px solid #e7e9fc;
 }
 
 /* -----------SECTION 3------------- */
@@ -307,7 +308,27 @@ body {
 }
 
 .third-item {
+  height: 380px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.third-info {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.third-text {
+  width: 232px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .third-header {
@@ -318,7 +339,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 32px 0 8px 0;
+  /* margin: 32px 0 8px 0; */
 }
 
 .third-par {
@@ -327,7 +348,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .third-img {
@@ -364,8 +385,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  height: 72px;
+  /* width: 264px;
+  height: 72px; */
   color: #e7e9fc;
   margin-top: 16px;
 }
@@ -437,8 +458,9 @@ body {
 }
 
 .project-item {
-  margin-right: 24px;
+  margin-right: 18px;
   margin-bottom: 48px;
+  border: 1px solid #e7e9fc;
 }
 
 .project-item:nth-child(3n) {
