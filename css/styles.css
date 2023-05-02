@@ -69,10 +69,6 @@ body {
   align-items: center;
 }
 
-.logo-full {
-  display: flex;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -318,7 +314,6 @@ body {
 
 .third-text {
   width: 232px;
-  gap: 8px;
   padding: 32px 16px;
   display: flex;
   flex-direction: column;
@@ -332,6 +327,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .third-par {
@@ -353,6 +349,11 @@ body {
 
 .footer-div {
   height: 112px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-down-studio {
@@ -431,27 +432,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 72px;
-  /* column-gap: 24px; */
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-item {
   width: calc((100% - 48px) / 3);
-  margin-right: 18px;
-  margin-bottom: 48px;
-  border: 1px solid #e7e9fc;
-}
-
-.project-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.project-item:nth-child(n + 7) {
-  margin-bottom: 0;
 }
 
 .project-div {
-  padding-left: 16px;
-  padding-right: auto;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .project-head {
